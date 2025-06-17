@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.um{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.voltar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.voltar:hover {
+    background-color: #5a6268;
+}
+
+.proximo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.proximo:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.Age{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 700px;
+}
+
+form label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="number"]{
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 480px;
+}
+form input[type="text"]{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline-color: #007BFF;
+    width: 100%;
+    max-width: 500px;
+}
+
+form input[type="number"]:focus,
+form input[type="text"]:focus {
+    border-color: #0056b3;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.neutro {
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+}
+
+.saida-php {
+    background-color: #ffffff;
+    border-left: 5px solid #007BFF;
+    width: 700px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
